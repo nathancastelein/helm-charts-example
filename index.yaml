@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/nathancastelein/helm-charts-example/releases/download/helm-example-0.1.0/helm-example-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-22T08:24:48.299846387Z"
+  my-first-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-04-22T13:33:10.879275879Z"
+    description: A Helm chart for Kubernetes
+    digest: 99376982790a10b68e9b7356d768824bb83859e528829c27470f58c9faaa36c9
+    name: my-first-app
+    type: application
+    urls:
+    - https://github.com/nathancastelein/helm-charts-example/releases/download/my-first-app-0.1.0/my-first-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-04-22T13:33:10.87928163Z"
