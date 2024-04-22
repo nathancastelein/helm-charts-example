@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-second-app
+  labels:
+    app: my-second-app
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 8080
+    protocol: TCP
+    name: http
+  selector:
+    app: my-second-app
